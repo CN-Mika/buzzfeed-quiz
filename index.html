@@ -2,41 +2,54 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
   <title>Buzzfeed Quiz</title>
-  <link type='text/css' rel='stylesheet' href='css/style.css' />
+  <link type='text/css' rel='stylesheet' href='style.css' />
+  <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="header">
-    <div><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BuzzFeed.svg/1280px-BuzzFeed.svg.png"></div>
-    <div>News</div>
-    <div>Videos</div>
-    <div>Quizes</div>
-    <div>Tasty</div>
-    <input placeholder="Search">
+    <div>
+      <img class="logo" src="images/pngfind.com-buzzfeed-logo-png-74199.png">
+    </div>
+    <div><a href="https://www.buzzfeed.com/quizzes">Quizzes</a></div>
+    <div><a href="https://www.buzzfeed.com/tvandmovies">TV & Movies</a></div>
+    <div><a href="https://www.buzzfeed.com/shopping">Shopping</a></div>
+    <div><a href="https://www.buzzfeed.com/news">News</a></div>
+    <div><a href="https://www.buzzfeed.com/tasty">Tasty</a></div>
   </div>
-  </div>
+  
+  <div class="title">
   <h1>Which Tech Company is the Perfect Fit for You?</h1>
-  <p id="caption">With dedication, you'll be there before you know it. </p>
-  <img id="tomImg" src="http://th.downloadblog.it/jSwEBLI80OIF2oYywP73GVj3zCo=/fit-in/655xorig/http%3A%2F%2Fmedia.downloadblog.it%2F5%2F57d%2Ftom-di-myspace.jpg">
-  <a href="https://en.wikipedia.org/wiki/Tom_Anderson">Tom Anderson</a>
-  <div id="tom">Buzzfeed Contributor</div>
-  <img class="siliconValley" src="https://www.hbo.com/content/dam/hbodata/series/silicon-valley/episodes/s3/silicon-valley-3-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg">
-  <div class="questions">
+    <p id="caption">With dedication, you'll be there before you know it.</p>
+  </div>
+  
+  <img src="https://d1e00ek4ebabms.cloudfront.net/production/ca519da0-3e34-47c5-8682-becf1861128b.jpg">
+
+  
+  <div class="questions userInput">
     <h2>Let's start with your Name</h2>
     <input id="name" placeholder="Enter Your Name Here">
-    <h2> Would you rather spend the day reading, coding, playing a sport or designing clothing?</h2>
-    <input id="question1" placeholder="Reading, Coding, Sports, Designing">
-    <h2> Which would you rather disappear from earh forever: Waffles, Pancakes, or French Toast?</h2>
-    <input id="question2" placeholder="Pancakes, Waffles, or French Toast">
+    <h2>Would you rather spend the day filled with reading, coding, sports or design?</h2>
+    <input id="activity" placeholder="Enter Activity">
+    <h2>What's your favorite season? Spring, summer, fall, or winter?</h2>
+    <input id="season" placeholder="Enter Season">
+    <h2>Which would you rather disappear forever: waffles, pancakes, or french toast?</h2>
+    <input id="breakfast" placeholder="Enter Breakfast Food">
+    <h2>What's your favorite holiday?</h2>
+    <input id="holiday" placeholder="Enter a Holiday">
     <h2>What is your favorite animal?</h2>
-    <input id="question3" placeholder="Mine is a Duck">
+    <input id="animal" placeholder="Enter Animal">
   </div>
-  <div class="result">
-    <button>Click here to land your dream job!</button>
+</br>
+</br>
+  <div class="display">
+    <button class="submit">CLICK HERE!</button>
   </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src='js/script.js'></script>
+  
+  <script src='script.js'></script>
 </body>
 
 </html>
