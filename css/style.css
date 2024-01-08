@@ -1,57 +1,55 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    color: #0f65ef;
-    font-weight: bold;
-    font-size:15px;
+  font-family: 'Slabo 27px', serif;
+  display: flex;
+  justify-content: space-around;
+  color: #0f65ef;
+  font-size:27px;
 }
 
 .logo {
-    width: 125px;
+  width: 100px;
+}
+
+.title {
+  font-family: 'Slabo 27px', serif;
+  text-align:center;
 }
 
 body {
-    background-color: white;
+  background-color: #ffffff;
+  font-family: 'Slabo 27px', serif;
 }
 
-.siliconValley {
-    width: 50%;
-    height:50%;
+img {
+ width: 100%;
+  
 }
 
 #caption {
-    font-size: 20px;
-}
-
-#tomImg {
-    border-radius: 50%;
-    width: 50px;
+  font-size: 20px;
+  text-align:center;
 }
 
 a {
-    color: #0f65ef;
-    font-weight: bold;
+  color: #0f65ef;
+  font-weight: bold;
 }
 
-#tom {
-    color: grey;
-}
-
-.result {
-   text-align:center;
+.display {
+  text-align:center;
 }
 
 button {
-    margin-top: 10px;
-    color: white;
-    background-color: red;
-    font-size: 40px;
-    border-radius: 25px;
-    border:3px groove black ;
-    font-family: monospace;
+  margin-top: 10px;
+  color: white;
+  background-color: #eb2642;
+  font-size: 40px;
+  border-radius: 25px;
+  border:3px groove black;
+  font-family: monospace;
+  padding: 20px;
 }
 
 body{
-
-    margin-left:20px;
+  margin-left:20px;
 }
